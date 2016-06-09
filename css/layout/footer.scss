@@ -1,0 +1,38 @@
+@import "../helpers/variables";
+@import "../layout/mixin";
+
+.top{
+	margin-top: -200px;
+}
+.top-2{
+	margin-top: $top;
+	}
+.top-5{
+	margin-top: $top-5;
+}
+#footer{
+	.cuadro2{
+		width: $width-5;
+		height: 300px;
+		margin-top: 5%;	
+	}
+	.float{
+		float: right;
+	}
+	.bg-cuadro{
+		background-color: $pink;
+		margin-top: 5%;
+	}
+	.bg-orange{
+		background-color: $orange;
+		border-right: 15px solid white;
+		border-left: 15px solid white;
+	}
+	h2{
+		@include titulos(white);
+	}
+	p{
+		color: #eaeaea;
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,15 @@
+@import "layout/header";
+@import "layout/footer";
+@import "layout/mixin";
+@import "helpers/variables";
+@import "paginas/home";
+@import "paginas/single";
+@import "paginas/blog";
+@import "paginas/portfolio";
+@import "paginas/contact";
+
+
+@font-face{
+	font-family: "bebas___-webfont";
+	src: url("../font/bebas___-webfont.ttf") format("truetype");
+}

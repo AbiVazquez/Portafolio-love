@@ -1,0 +1,103 @@
+@import "../helpers/variables";
+@import "../layout/mixin";
+
+
+
+#header{
+	.img{
+		width: $width;
+		margin-top: -5%;
+	}
+	.cuadro{
+		width: $width-5;
+		height: 135px;
+	}
+	.float{
+		float: right;
+	}
+}
+#iconos{
+	margin-top: $top;
+	h4{
+		@include titulos($orange);
+	}
+	p{
+		margin-top: $top-5;
+	}
+	button{
+		border: none;
+		font-family: "bebas___-webfont" !important;
+		background-color: $orange;
+		padding: 10px 15px;
+	}
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	a:hover{
+		color: $pink;
+	}
+}
+#blog{
+	h3{
+		@include titulos($orange);
+	}
+	.bg-rayas{
+		background-image: url("../images/post_border_bg.png");
+		height: 30px;
+		margin-top: 6%;
+	}
+	h4{
+		@include titulos($gray);
+	}
+	.borde{
+		border-bottom: 1px solid $gray;
+		border-right: 1px solid $gray;
+		border-left: 1px solid $gray;
+		padding:5% 10% 0;
+	}
+	p{
+		@include titulos($orange);
+	}
+	.img-blog{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 768px){
+	#header{
+	.img{
+		width: $width;
+		margin-top: -15%;
+	}
+	.cuadro{
+		width: $width-5;
+		height: 135px;
+	}
+	.float{
+		float: right;
+	}
+}
+	#iconos{
+	margin-top: 10%;
+	margin-left: 25%;
+	h4{
+		@include titulos($orange);
+	}
+	p{
+		margin-top: $top-5;
+	}
+	button{
+		border: none;
+		font-family: "bebas___-webfont" !important;
+		background-color: $orange;
+		padding: 10px 15px;
+	}
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	a:hover{
+		color: $pink;
+	}
+}
+}

@@ -1,0 +1,24 @@
+@import "../helpers/variables";
+#menu{
+	background-color: white;
+	font-family: "bebas___-webfont" !important;
+	h1{
+		color: $orange;
+		font-family: "bebas___-webfont" !important;
+		font-size:40px;
+	}
+	span{
+		color: $pink;
+	}
+	a:hover{
+		text-decoration: none;
+		color: $orange;
+	}
+	.active{
+		color: $orange;
+	}
+	li{
+		color: $gray;
+		margin-top: $top;
+	}
+}

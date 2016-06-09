@@ -1,0 +1,49 @@
+@import "../helpers/variables";
+@import "../layout/mixin";
+
+#categories{
+	.text-black{
+		 @include titulos(black);
+		 font-size: 25px;
+	}
+	ul{
+		margin-left: -5%;
+	}
+	li{
+		display: inline;
+		padding: 2%;
+		font-size: 20px;
+	}
+	a{
+		@include titulos($gray);
+		&:hover{
+			color:white;
+			background-color: $orange;
+			text-decoration: none;
+			padding: 10px;
+		};
+	}
+}
+#pic{
+	.img-pic{
+		width: 100%;
+		height: 160px;
+		border: 1px solid $gray;
+		padding: 1%;
+		&:hover{
+			border: 1px solid $orange;
+			box-shadow: 0px 0px 5px 2px rgba(232,102,60,1);
+		};
+	}
+	.borde{
+		border: 1px solid $gray;
+		margin-top: 2%;
+		padding:0% 5% 5%;
+	}
+	h3{
+		@include titulos($gray);
+	}
+	p{
+		@include titulos($orange);
+	}
+}

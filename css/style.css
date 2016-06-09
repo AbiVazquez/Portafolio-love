@@ -1,0 +1,398 @@
+.top-5 {
+  margin-top: 5%; }
+
+.top-3 {
+  margin-top: 3%; }
+
+#menu {
+  background-color: white;
+  font-family: "bebas___-webfont" !important; }
+  #menu h1 {
+    color: #E8663C;
+    font-family: "bebas___-webfont" !important;
+    font-size: 40px; }
+  #menu span {
+    color: #F2AE9C; }
+  #menu a:hover {
+    text-decoration: none;
+    color: #E8663C; }
+  #menu .active {
+    color: #E8663C; }
+  #menu li {
+    color: #BCBCBC;
+    margin-top: 2%; }
+
+.top-5 {
+  margin-top: 5%; }
+
+.top-3 {
+  margin-top: 3%; }
+
+.top {
+  margin-top: -200px; }
+
+.top-2 {
+  margin-top: 2%; }
+
+.top-5 {
+  margin-top: 5%; }
+
+#footer .cuadro2 {
+  width: 5%;
+  height: 300px;
+  margin-top: 5%; }
+#footer .float {
+  float: right; }
+#footer .bg-cuadro {
+  background-color: #F2AE9C;
+  margin-top: 5%; }
+#footer .bg-orange {
+  background-color: #E8663C;
+  border-right: 15px solid white;
+  border-left: 15px solid white; }
+#footer h2 {
+  font-family: "bebas___-webfont" !important;
+  color: white; }
+#footer p {
+  color: #eaeaea;
+  font-size: 15px; }
+
+.top-5 {
+  margin-top: 5%; }
+
+.top-3 {
+  margin-top: 3%; }
+
+.top-5 {
+  margin-top: 5%; }
+
+.top-3 {
+  margin-top: 3%; }
+
+#header .img {
+  width: 100%;
+  margin-top: -5%; }
+#header .cuadro {
+  width: 5%;
+  height: 135px; }
+#header .float {
+  float: right; }
+
+#iconos {
+  margin-top: 2%; }
+  #iconos h4 {
+    font-family: "bebas___-webfont" !important;
+    color: #E8663C; }
+  #iconos p {
+    margin-top: 5%; }
+  #iconos button {
+    border: none;
+    font-family: "bebas___-webfont" !important;
+    background-color: #E8663C;
+    padding: 10px 15px; }
+  #iconos a {
+    color: white;
+    text-decoration: none; }
+  #iconos a:hover {
+    color: #F2AE9C; }
+
+#blog h3 {
+  font-family: "bebas___-webfont" !important;
+  color: #E8663C; }
+#blog .bg-rayas {
+  background-image: url("../images/post_border_bg.png");
+  height: 30px;
+  margin-top: 6%; }
+#blog h4 {
+  font-family: "bebas___-webfont" !important;
+  color: #BCBCBC; }
+#blog .borde {
+  border-bottom: 1px solid #BCBCBC;
+  border-right: 1px solid #BCBCBC;
+  border-left: 1px solid #BCBCBC;
+  padding: 5% 10% 0; }
+#blog p {
+  font-family: "bebas___-webfont" !important;
+  color: #E8663C; }
+#blog .img-blog {
+  width: 100%; }
+
+@media screen and (max-width: 768px) {
+  #header .img {
+    width: 100%;
+    margin-top: -15%; }
+  #header .cuadro {
+    width: 5%;
+    height: 135px; }
+  #header .float {
+    float: right; }
+
+  #iconos {
+    margin-top: 10%;
+    margin-left: 25%; }
+    #iconos h4 {
+      font-family: "bebas___-webfont" !important;
+      color: #E8663C; }
+    #iconos p {
+      margin-top: 5%; }
+    #iconos button {
+      border: none;
+      font-family: "bebas___-webfont" !important;
+      background-color: #E8663C;
+      padding: 10px 15px; }
+    #iconos a {
+      color: white;
+      text-decoration: none; }
+    #iconos a:hover {
+      color: #F2AE9C; } }
+.top-5 {
+  margin-top: 5%; }
+
+.top-3 {
+  margin-top: 3%; }
+
+#us .cuadro {
+  width: 5%;
+  height: 135px; }
+#us .float {
+  float: right; }
+#us h2 {
+  font-family: "bebas___-webfont" !important;
+  color: white;
+  background-color: #E8663C;
+  margin-top: -5%;
+  padding: 13px; }
+
+#about {
+  /*Para hacer la linea de lado izquierdo*/ }
+  #about .img {
+    width: 250px;
+    padding: 2%;
+    border: 1px solid #BCBCBC; }
+  #about .img-author {
+    width: 100%; }
+  #about p {
+    font-size: 16px; }
+  #about .bs-callout {
+    padding: 10px;
+    margin: 50px 45px 0;
+    border-left: 1px solid #E8663C;
+    border-left-width: 10px; }
+  #about .text-pink {
+    color: #F2AE9C; }
+  #about h4 {
+    font-family: "bebas___-webfont" !important;
+    color: #E8663C; }
+  #about .bg-rayas {
+    background-image: url("../images/post_border_bg.png");
+    height: 20px;
+    margin-top: 2%; }
+  #about ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  #about a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px; }
+    #about a:hover {
+      color: #E8663C; }
+  #about .img-photo {
+    width: 62px;
+    border: 1px solid #E8663C; }
+  #about .img-photo:hover {
+    border: 1px dashed #BCBCBC; }
+
+@media screen and (max-width: 768px) {
+  #us .cuadro {
+    width: 5%;
+    height: 132px; }
+  #us .float {
+    float: right; }
+  #us h2 {
+    font-family: "bebas___-webfont" !important;
+    color: white;
+    background-color: #E8663C;
+    margin-top: -13%;
+    padding: 13px; }
+
+  #about .img {
+    width: 150px;
+    padding: 2%;
+    border: 1px solid #BCBCBC; }
+  #about .img-author {
+    width: 100%; } }
+.top-5 {
+  margin-top: 5%; }
+
+.top-3 {
+  margin-top: 3%; }
+
+#blog2 .img {
+  width: 100%;
+  margin-top: -9%; }
+#blog2 .img-2 {
+  width: 100%; }
+#blog2 .icon {
+  margin-top: 2%; }
+#blog2 .icon2 {
+  position: absolute;
+  left: -11%; }
+#blog2 h3 {
+  font-family: "bebas___-webfont" !important;
+  color: #E8663C; }
+#blog2 h5 {
+  font-family: "bebas___-webfont" !important;
+  color: #E8663C; }
+#blog2 p {
+  font-size: 16px; }
+#blog2 .text-gray {
+  color: #BCBCBC; }
+#blog2 .rayas {
+  background-image: url("../images/post_border_bg.png");
+  height: 20px;
+  margin-top: 5%; }
+#blog2 .cuadro-gray {
+  background-image: url("../images/quote_bg.png");
+  padding: 3%;
+  margin-top: 5%; }
+#blog2 .quote {
+  width: 100%; }
+#blog2 .letrita {
+  font-size: 13px;
+  color: #BCBCBC; }
+#blog2 a {
+  text-decoration: none; }
+#blog2 button {
+  display: inline;
+  font-family: "bebas___-webfont" !important;
+  color: white;
+  font-size: 20px;
+  background-color: #E8663C;
+  border: none;
+  padding: 10px;
+  margin-top: 2%; }
+  #blog2 button a {
+    color: white; }
+  #blog2 button a:hover {
+    color: #F2AE9C; }
+#blog2 h4 {
+  font-family: "bebas___-webfont" !important;
+  color: #E8663C; }
+#blog2 .bg-rayas {
+  background-image: url("../images/post_border_bg.png");
+  height: 20px;
+  margin-top: 2%; }
+#blog2 .img-photo {
+  width: 62px;
+  border: 1px solid #E8663C; }
+#blog2 .img-photo:hover {
+  border: 1px dashed #BCBCBC; }
+#blog2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+#blog2 a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px; }
+  #blog2 a:hover {
+    color: #E8663C; }
+
+@media screen and (max-width: 768px) {
+  #blog2 .icon {
+    position: relative;
+    width: 50px; }
+  #blog2 .img {
+    width: 90%;
+    margin-top: -11%;
+    margin-left: 10%; }
+  #blog2 .img-2 {
+    width: 90%;
+    margin-left: 10%; }
+  #blog2 .icon2 {
+    position: absolute;
+    left: -2%;
+    width: 50px; }
+  #blog2 .txt-responsive {
+    margin-left: 10%; }
+  #blog2 button {
+    margin-bottom: 5%; } }
+.top-5 {
+  margin-top: 5%; }
+
+.top-3 {
+  margin-top: 3%; }
+
+#categories .text-black {
+  font-family: "bebas___-webfont" !important;
+  color: black;
+  font-size: 25px; }
+#categories ul {
+  margin-left: -5%; }
+#categories li {
+  display: inline;
+  padding: 2%;
+  font-size: 20px; }
+#categories a {
+  font-family: "bebas___-webfont" !important;
+  color: #BCBCBC; }
+  #categories a:hover {
+    color: white;
+    background-color: #E8663C;
+    text-decoration: none;
+    padding: 10px; }
+
+#pic .img-pic {
+  width: 100%;
+  height: 160px;
+  border: 1px solid #BCBCBC;
+  padding: 1%; }
+  #pic .img-pic:hover {
+    border: 1px solid #E8663C;
+    box-shadow: 0px 0px 5px 2px #e8663c; }
+#pic .borde {
+  border: 1px solid #BCBCBC;
+  margin-top: 2%;
+  padding: 0% 5% 5%; }
+#pic h3 {
+  font-family: "bebas___-webfont" !important;
+  color: #BCBCBC; }
+#pic p {
+  font-family: "bebas___-webfont" !important;
+  color: #E8663C; }
+
+.top-5 {
+  margin-top: 5%; }
+
+.top-3 {
+  margin-top: 3%; }
+
+#mapa .txt-orange {
+  color: #E8663C;
+  font-size: 16px; }
+#mapa p {
+  font-size: 16px; }
+#mapa ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+#mapa .form {
+  border: 1px solid #E8663C;
+  margin-top: 5%; }
+#mapa ::-webkit-input-placeholder {
+  font-family: "bebas___-webfont" !important;
+  color: #E8663C; }
+#mapa button {
+  background-color: #E8663C;
+  font-family: "bebas___-webfont" !important;
+  color: white;
+  font-size: 20px;
+  width: 100%; }
+
+@font-face {
+  font-family: "bebas___-webfont";
+  src: url("../font/bebas___-webfont.ttf") format("truetype"); }
+
+/*# sourceMappingURL=style.css.map */
